@@ -1,0 +1,19 @@
+{
+    "comment": "https://wiki.wdf.sap.corp/wiki/display/SLS/Translation.json+File+Tutorial",
+    "collections": [ {
+        "collectionName": "Localizable",
+        "folders": [ {
+            "startingFolderPath": "./newSourceFolder",
+            "sourceFilters": [ "i18n.properties", "*.xml" ],
+            "excludedSourceFilters": [ ],
+            "targetFolderPath": ".",
+            "xlfFolderPath":    "/XLF",
+            "oneQFolderPath":   "/1Q",
+            "pseudoLocFolderPath": "/2Q"
+        } ]
+    } ],
+    
+    "defaultConfiguration" : {
+        "targetFileNamingConvention":"[filename]_[langcode].[extension]"
+    }
+}
